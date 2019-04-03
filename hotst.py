@@ -6,7 +6,7 @@ i=int(input())
 i=i-1
 chrome_options=webdriver.ChromeOptions()
 chrome_options.add_argument("--disable-infobars")
-browser1 = webdriver.Chrome(r"C:\Users\Niranjan\Desktop\new\chromedriver.exe", chrome_options=chrome_options)
+browser1 = webdriver.Chrome(chrome_options=chrome_options)
 browser1.set_window_position(1000, 1000)
 browser1.get(j)
 time.sleep(4)
